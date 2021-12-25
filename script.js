@@ -15,7 +15,7 @@ var ball = {
       alpha: 1,
       phase: 0
    },
-   ball_color = {
+ball_color = {
        r: 207,
        g: 255,
        b: 4
@@ -38,6 +38,8 @@ var ball = {
       r: 0,
       type: 'mouse'
    };
+
+
 
 // Random speed
 function getRandomSpeed(pos){
@@ -212,6 +214,19 @@ function render(){
     addBallIfy();
     
     window.requestAnimationFrame(render);
+
+ctx.font = "48px serif";
+ctx.textBaseline = "hanging";
+ctx.strokeText("Dilshan M. Karunarathne", 50, 50);
+var img = document.getElementById("mypic");
+  ctx.drawImage(img, 150, 120, 200, 200);
+
+ctx.font = '18px serif';
+ctx.strokeText("I'm a Computer Science student, Eastern University of Sri Lanka.  ", 50, 350);
+ctx.strokeText("Also a programmer and a blogger.", 50, 370)
+ctx.strokeText("Interested in de-centralized application development. ", 50, 390)
+ctx.strokeText("I have studied Computer Science, Cryptography, Computer Architecture and Web app development.", 50, 410)
+
 }
 
 // Init Balls
