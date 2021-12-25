@@ -3,7 +3,7 @@ var canvas = document.getElementById('nokey'),
    can_h = parseInt(canvas.getAttribute('height')),
    ctx = canvas.getContext('2d');
 
-// console.log(typeof can_w);
+console.log(typeof can_w);
 var BALL_NUM = 30
 
 var ball = {
