@@ -14,6 +14,6 @@ ol {
     *list-style: decimal; /* Keep using default numbering for IE6/7 */
     font: 15px 'trebuchet MS', 'lucida sans';
     padding: 300;
-    margin-bottom: 4em;
+    margin-bottom: 10em;
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
 }
