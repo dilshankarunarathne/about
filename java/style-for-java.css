@@ -38,6 +38,13 @@ body {
     padding: 0;
 }
 
+main {
+    display: block;
+    margin: 0 auto;
+    max-width: 40rem;
+    padding: 1rem;
+}
+
 
 .num-list {
 
