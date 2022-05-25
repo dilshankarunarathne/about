@@ -30,6 +30,10 @@ $white: #fafafa;
 
 html,
 body {
+    background-image: url('background.png');
+    color: #1e2125;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
